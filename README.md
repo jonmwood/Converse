@@ -1,8 +1,8 @@
-# Conversation Cards
+# Converse
 
 A conversation flash card app to spark meaningful conversations — with kids, family, friends, and partners. Flip through curated question cards, each paired with a small activity, and reveal the activity by tapping the card.
 
-**Live site:** https://jonmwood.github.io/conversation-cards/
+**Live site:** https://jonmwood.github.io/Converse/
 
 ## Features
 

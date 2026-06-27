@@ -15,7 +15,9 @@
       "Bash(curl -s https://jonmwood.github.io/conversation-cards/)",
       "mcp__Claude_Preview__preview_start",
       "Bash(git commit -q -m 'Fix card-flip text bleed-through and make depth chip themed on back *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git remote *)",
+      "Bash(git commit -q -m 'Rename project to Converse; update Pages base path and references *)"
     ]
   }
 }
