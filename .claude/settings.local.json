@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(git mv *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(git add *)",
+      "Bash(git commit -q -m 'Conversation Cards: Vite + React app with GitHub Pages deploy *)",
+      "Bash(git branch *)"
+    ]
+  }
+}
