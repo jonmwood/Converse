@@ -17,7 +17,9 @@
       "Bash(git commit -q -m 'Fix card-flip text bleed-through and make depth chip themed on back *)",
       "Bash(git push *)",
       "Bash(git remote *)",
-      "Bash(git commit -q -m 'Rename project to Converse; update Pages base path and references *)"
+      "Bash(git commit -q -m 'Rename project to Converse; update Pages base path and references *)",
+      "Bash(node -e ' *)",
+      "Bash(git commit -q -m 'Expand every deck to 50 questions \\(25 light + 25 deep\\) *)"
     ]
   }
 }
