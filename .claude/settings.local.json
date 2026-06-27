@@ -7,7 +7,15 @@
       "Bash(npm run *)",
       "Bash(git add *)",
       "Bash(git commit -q -m 'Conversation Cards: Vite + React app with GitHub Pages deploy *)",
-      "Bash(git branch *)"
+      "Bash(git branch *)",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "Bash(gh run *)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" https://jonmwood.github.io/conversation-cards/)",
+      "Bash(curl -s https://jonmwood.github.io/conversation-cards/)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git commit -q -m 'Fix card-flip text bleed-through and make depth chip themed on back *)",
+      "Bash(git push *)"
     ]
   }
 }

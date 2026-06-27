@@ -260,6 +260,9 @@ function Card({ card, cat, index, total, onNext, onPrev, onShuffle }) {
           position: "absolute", inset: 0,
           backfaceVisibility: "hidden",
           WebkitBackfaceVisibility: "hidden",
+          transform: "rotateY(0deg)",
+          opacity: flipped ? 0 : 1,
+          transition: "opacity 0s linear 0.275s",
           background: cat.gradient,
           borderRadius: 24,
           display: "flex", flexDirection: "column",
@@ -307,6 +310,8 @@ function Card({ card, cat, index, total, onNext, onPrev, onShuffle }) {
           backfaceVisibility: "hidden",
           WebkitBackfaceVisibility: "hidden",
           transform: "rotateY(180deg)",
+          opacity: flipped ? 1 : 0,
+          transition: "opacity 0s linear 0.275s",
           background: "#FAFAF8",
           borderRadius: 24,
           display: "flex", flexDirection: "column",
@@ -336,9 +341,9 @@ function Card({ card, cat, index, total, onNext, onPrev, onShuffle }) {
             </p>
             <span style={{
               fontSize: 11, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.07em",
-              background: `${cat.color}15`, color: cat.color,
-              border: `1px solid ${cat.color}25`,
-              borderRadius: 100, padding: "4px 12px", marginTop: 4,
+              background: cat.gradient, color: "#fff",
+              borderRadius: 100, padding: "5px 13px", marginTop: 4,
+              boxShadow: `0 3px 10px ${cat.color}40`,
             }}>
               {card.depth === "light" ? "😊 Light" : "❤️ Deep"}
             </span>
